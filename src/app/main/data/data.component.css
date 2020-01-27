@@ -1,0 +1,43 @@
+/*
+     * Extra utilities
+     */
+
+.flex-equal>* {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal>* {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+
+.box-shadow {
+  box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
+
+.dark-box {
+  border: 2px solid white;
+  padding-bottom: 2vh;
+}
+
+.white-box {
+  padding-bottom: 2vh;
+}
+
+.box-header {
+  height: 35%;
+  padding-bottom: 2%
+}
+
+.interest-text {
+  text-align: left;
+  text-indent: 2em;
+  padding: 10% 3%;
+  color: #141E30;
+}
